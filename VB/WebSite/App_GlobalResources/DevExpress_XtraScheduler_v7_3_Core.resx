@@ -1,0 +1,901 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="SchedulerStringId.Msg_IsNotValid">
+    <value>'{0}' is not a valid value for '{1}'</value>
+  </data>
+  <data name="SchedulerStringId.Msg_InvalidDayOfWeekForDailyRecurrence">
+    <value>Invalid day of week for a daily recurrence. Only WeekDays.EveryDay, WeekDays.WeekendDays and WeekDays.WorkDays are valid in this context.</value>
+  </data>
+  <data name="SchedulerStringId.Msg_InternalError">
+    <value>Internal error!</value>
+  </data>
+  <data name="SchedulerStringId.Msg_NoMappingForObject">
+    <value>The following required mappings for the object 
+ {0} are not assigned</value>
+  </data>
+  <data name="SchedulerStringId.Msg_XtraSchedulerNotAssigned">
+    <value>The SchedulerStorage component is not assigned to the SchedulerControl</value>
+  </data>
+  <data name="SchedulerStringId.Msg_InvalidTimeOfDayInterval">
+    <value>Invalid duration for the TimeOfDayInterval</value>
+  </data>
+  <data name="SchedulerStringId.Msg_OverflowTimeOfDayInterval">
+    <value>Invalid value for the TimeOfDayInterval. Should be less than or equal to a day</value>
+  </data>
+  <data name="SchedulerStringId.Msg_LoadCollectionFromXml">
+    <value>The scheduler needs to be in unbound mode to load collection items from xml</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentLabel_None">
+    <value>None</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentLabel_Important">
+    <value>Important</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentLabel_Business">
+    <value>Business</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentLabel_Personal">
+    <value>Personal</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentLabel_Vacation">
+    <value>Vacation</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentLabel_MustAttend">
+    <value>Must Attend</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentLabel_TravelRequired">
+    <value>Travel Required</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentLabel_NeedsPreparation">
+    <value>Needs Preparation</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentLabel_Birthday">
+    <value>Birthday</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentLabel_Anniversary">
+    <value>Anniversary</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentLabel_PhoneCall">
+    <value>Phone Call</value>
+  </data>
+  <data name="SchedulerStringId.Appointment_StartContinueText">
+    <value>From {0}</value>
+  </data>
+  <data name="SchedulerStringId.Appointment_EndContinueText">
+    <value>To {0}</value>
+  </data>
+  <data name="SchedulerStringId.Msg_InvalidEndDate">
+    <value>The date you entered occurs before the start date.</value>
+  </data>
+  <data name="SchedulerStringId.Caption_Appointment">
+    <value>{0} - Appointment</value>
+  </data>
+  <data name="SchedulerStringId.Caption_Event">
+    <value>{0} - Event</value>
+  </data>
+  <data name="SchedulerStringId.Caption_UntitledAppointment">
+    <value>Untitled</value>
+  </data>
+  <data name="SchedulerStringId.Caption_ReadOnly">
+    <value> [Read only]</value>
+  </data>
+  <data name="SchedulerStringId.Caption_WeekDaysEveryDay">
+    <value>Day</value>
+  </data>
+  <data name="SchedulerStringId.Caption_WeekDaysWeekendDays">
+    <value>Weekend day</value>
+  </data>
+  <data name="SchedulerStringId.Caption_WeekDaysWorkDays">
+    <value>Weekday</value>
+  </data>
+  <data name="SchedulerStringId.Caption_WeekOfMonthFirst">
+    <value>First</value>
+  </data>
+  <data name="SchedulerStringId.Caption_WeekOfMonthSecond">
+    <value>Second</value>
+  </data>
+  <data name="SchedulerStringId.Caption_WeekOfMonthThird">
+    <value>Third</value>
+  </data>
+  <data name="SchedulerStringId.Caption_WeekOfMonthFourth">
+    <value>Fourth</value>
+  </data>
+  <data name="SchedulerStringId.Caption_WeekOfMonthLast">
+    <value>Last</value>
+  </data>
+  <data name="SchedulerStringId.Msg_InvalidDayCount">
+    <value>Invalid day count. Please enter a positive integer value.</value>
+  </data>
+  <data name="SchedulerStringId.Msg_InvalidDayCountValue">
+    <value>Invalid day count. Please enter a positive integer value.</value>
+  </data>
+  <data name="SchedulerStringId.Msg_InvalidWeekCount">
+    <value>Invalid week count. Please enter a positive integer value.</value>
+  </data>
+  <data name="SchedulerStringId.Msg_InvalidWeekCountValue">
+    <value>Invalid week count. Please enter a positive integer value.</value>
+  </data>
+  <data name="SchedulerStringId.Msg_InvalidMonthCount">
+    <value>Invalid month count. Please enter a positive integer value.</value>
+  </data>
+  <data name="SchedulerStringId.Msg_InvalidMonthCountValue">
+    <value>Invalid month count. Please enter a positive integer value.</value>
+  </data>
+  <data name="SchedulerStringId.Msg_InvalidYearCount">
+    <value>Invalid year count. Please enter a positive integer value.</value>
+  </data>
+  <data name="SchedulerStringId.Msg_InvalidYearCountValue">
+    <value>Invalid year count. Please enter a positive integer value.</value>
+  </data>
+  <data name="SchedulerStringId.Msg_InvalidOccurrencesCount">
+    <value>Invalid occurrences count. Please enter a positive integer value.</value>
+  </data>
+  <data name="SchedulerStringId.Msg_InvalidOccurrencesCountValue">
+    <value>Invalid occurrences count. Please enter a positive integer value.</value>
+  </data>
+  <data name="SchedulerStringId.Msg_InvalidDayNumber">
+    <value>Invalid day number. Please enter an integer value from 1 to {0}.</value>
+  </data>
+  <data name="SchedulerStringId.Msg_InvalidDayNumberValue">
+    <value>Invalid day number. Please enter an integer value from 1 to {0}.</value>
+  </data>
+  <data name="SchedulerStringId.Msg_WarningDayNumber">
+    <value>Some months have fewer than {0} days. For these months, the occurrences will fall on the last day of the month.</value>
+  </data>
+  <data name="SchedulerStringId.Msg_InvalidDayOfWeek">
+    <value>No day selected. Please select at least one day in the week.</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_OpenAppointment">
+    <value>&amp;Open</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_PrintAppointment">
+    <value>&amp;Print</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_DeleteAppointment">
+    <value>&amp;Delete</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_EditSeries">
+    <value>&amp;Edit Series</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_RestoreOccurrence">
+    <value>&amp;Restore Default State</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_NewAppointment">
+    <value>New App&amp;ointment</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_NewAllDayEvent">
+    <value>New All Day &amp;Event</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_NewRecurringAppointment">
+    <value>New Recurring &amp;Appointment</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_NewRecurringEvent">
+    <value>New Recurring E&amp;vent</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_GotoThisDay">
+    <value>Go to This &amp;Day</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_GotoToday">
+    <value>Go to &amp;Today</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_GotoDate">
+    <value>&amp;Go to Date...</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_OtherSettings">
+    <value>Other Sett&amp;ings...</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_CustomizeCurrentView">
+    <value>&amp;Customize Current View...</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_CustomizeTimeRuler">
+    <value>Customize Time Ruler...</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_5Minutes">
+    <value>&amp;5 Minutes</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_6Minutes">
+    <value>&amp;6 Minutes</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_10Minutes">
+    <value>10 &amp;Minutes</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_15Minutes">
+    <value>&amp;15 Minutes</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_20Minutes">
+    <value>&amp;20 Minutes</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_30Minutes">
+    <value>&amp;30 Minutes</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_60Minutes">
+    <value>6&amp;0 Minutes</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_SwitchViewMenu">
+    <value>Change View To</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_SwitchToDayView">
+    <value>&amp;Day View</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_SwitchToWorkWeekView">
+    <value>Wo&amp;rk Week View</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_SwitchToWeekView">
+    <value>&amp;Week View</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_SwitchToMonthView">
+    <value>&amp;Month View</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_SwitchToTimelineView">
+    <value>&amp;Timeline View</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_TimeScalesMenu">
+    <value>&amp;Time Scales</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_TimeScaleCaptionsMenu">
+    <value>Time Scale &amp;Captions</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_TimeScaleHour">
+    <value>&amp;Hour</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_TimeScaleDay">
+    <value>&amp;Day</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_TimeScaleWeek">
+    <value>&amp;Week</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_TimeScaleMonth">
+    <value>&amp;Month</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_TimeScaleQuarter">
+    <value>&amp;Quarter</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_TimeScaleYear">
+    <value>&amp;Year</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_ShowTimeAs">
+    <value>&amp;Show Time As</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_Free">
+    <value>&amp;Free</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_Busy">
+    <value>&amp;Busy</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_Tentative">
+    <value>&amp;Tentative</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_OutOfOffice">
+    <value>&amp;Out Of Office</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_LabelAs">
+    <value>&amp;Label As</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_AppointmentLabelNone">
+    <value>&amp;None</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_AppointmentLabelImportant">
+    <value>&amp;Important</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_AppointmentLabelBusiness">
+    <value>&amp;Business</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_AppointmentLabelPersonal">
+    <value>&amp;Personal</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_AppointmentLabelVacation">
+    <value>&amp;Vacation</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_AppointmentLabelMustAttend">
+    <value>Must &amp;Attend</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_AppointmentLabelTravelRequired">
+    <value>&amp;Travel Required</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_AppointmentLabelNeedsPreparation">
+    <value>&amp;Needs Preparation</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_AppointmentLabelBirthday">
+    <value>&amp;Birthday</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_AppointmentLabelAnniversary">
+    <value>&amp;Anniversary</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_AppointmentLabelPhoneCall">
+    <value>Phone &amp;Call</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_AppointmentMove">
+    <value>Mo&amp;ve</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_AppointmentCopy">
+    <value>&amp;Copy</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_AppointmentCancel">
+    <value>C&amp;ancel</value>
+  </data>
+  <data name="SchedulerStringId.Caption_5Minutes">
+    <value>5 Minutes</value>
+  </data>
+  <data name="SchedulerStringId.Caption_6Minutes">
+    <value>6 Minutes</value>
+  </data>
+  <data name="SchedulerStringId.Caption_10Minutes">
+    <value>10 Minutes</value>
+  </data>
+  <data name="SchedulerStringId.Caption_15Minutes">
+    <value>15 Minutes</value>
+  </data>
+  <data name="SchedulerStringId.Caption_20Minutes">
+    <value>20 Minutes</value>
+  </data>
+  <data name="SchedulerStringId.Caption_30Minutes">
+    <value>30 Minutes</value>
+  </data>
+  <data name="SchedulerStringId.Caption_60Minutes">
+    <value>60 Minutes</value>
+  </data>
+  <data name="SchedulerStringId.Caption_Free">
+    <value>Free</value>
+  </data>
+  <data name="SchedulerStringId.Caption_Busy">
+    <value>Busy</value>
+  </data>
+  <data name="SchedulerStringId.Caption_Tentative">
+    <value>Tentative</value>
+  </data>
+  <data name="SchedulerStringId.Caption_OutOfOffice">
+    <value>Out Of Office</value>
+  </data>
+  <data name="SchedulerStringId.ViewDisplayName_Day">
+    <value>Day Calendar</value>
+  </data>
+  <data name="SchedulerStringId.ViewDisplayName_WorkDays">
+    <value>Work Week Calendar</value>
+  </data>
+  <data name="SchedulerStringId.ViewDisplayName_Week">
+    <value>Week Calendar</value>
+  </data>
+  <data name="SchedulerStringId.ViewDisplayName_Month">
+    <value>Month Calendar</value>
+  </data>
+  <data name="SchedulerStringId.ViewDisplayName_Timeline">
+    <value>Timeline Calendar</value>
+  </data>
+  <data name="SchedulerStringId.ViewShortDisplayName_Day">
+    <value>Day</value>
+  </data>
+  <data name="SchedulerStringId.ViewShortDisplayName_WorkDays">
+    <value>Work Week</value>
+  </data>
+  <data name="SchedulerStringId.ViewShortDisplayName_Week">
+    <value>Week</value>
+  </data>
+  <data name="SchedulerStringId.ViewShortDisplayName_Month">
+    <value>Month</value>
+  </data>
+  <data name="SchedulerStringId.ViewShortDisplayName_Timeline">
+    <value>Timeline</value>
+  </data>
+  <data name="SchedulerStringId.TimeScaleDisplayName_Hour">
+    <value>Hour</value>
+  </data>
+  <data name="SchedulerStringId.TimeScaleDisplayName_Day">
+    <value>Day</value>
+  </data>
+  <data name="SchedulerStringId.TimeScaleDisplayName_Week">
+    <value>Week</value>
+  </data>
+  <data name="SchedulerStringId.TimeScaleDisplayName_Month">
+    <value>Month</value>
+  </data>
+  <data name="SchedulerStringId.TimeScaleDisplayName_Quarter">
+    <value>Quarter</value>
+  </data>
+  <data name="SchedulerStringId.TimeScaleDisplayName_Year">
+    <value>Year</value>
+  </data>
+  <data name="SchedulerStringId.Abbr_MinutesShort1">
+    <value>m</value>
+  </data>
+  <data name="SchedulerStringId.Abbr_MinutesShort2">
+    <value>min</value>
+  </data>
+  <data name="SchedulerStringId.Abbr_Minute">
+    <value>minute</value>
+  </data>
+  <data name="SchedulerStringId.Abbr_Minutes">
+    <value>minutes</value>
+  </data>
+  <data name="SchedulerStringId.Abbr_HoursShort">
+    <value>h</value>
+  </data>
+  <data name="SchedulerStringId.Abbr_Hour">
+    <value>hour</value>
+  </data>
+  <data name="SchedulerStringId.Abbr_Hours">
+    <value>hours</value>
+  </data>
+  <data name="SchedulerStringId.Abbr_DaysShort">
+    <value>d</value>
+  </data>
+  <data name="SchedulerStringId.Abbr_Day">
+    <value>day</value>
+  </data>
+  <data name="SchedulerStringId.Abbr_Days">
+    <value>days</value>
+  </data>
+  <data name="SchedulerStringId.Abbr_WeeksShort">
+    <value>w</value>
+  </data>
+  <data name="SchedulerStringId.Abbr_Week">
+    <value>week</value>
+  </data>
+  <data name="SchedulerStringId.Abbr_Weeks">
+    <value>weeks</value>
+  </data>
+  <data name="SchedulerStringId.Abbr_Month">
+    <value>month</value>
+  </data>
+  <data name="SchedulerStringId.Abbr_Months">
+    <value>months</value>
+  </data>
+  <data name="SchedulerStringId.Abbr_Year">
+    <value>year</value>
+  </data>
+  <data name="SchedulerStringId.Abbr_Years">
+    <value>years</value>
+  </data>
+  <data name="SchedulerStringId.Caption_Reminder">
+    <value>{0} Reminder</value>
+  </data>
+  <data name="SchedulerStringId.Caption_Reminders">
+    <value>{0} Reminders</value>
+  </data>
+  <data name="SchedulerStringId.Caption_StartTime">
+    <value>Start time: {0}</value>
+  </data>
+  <data name="SchedulerStringId.Caption_NAppointmentsAreSelected">
+    <value>{0} appointments are selected</value>
+  </data>
+  <data name="SchedulerStringId.Format_TimeBeforeStart">
+    <value>{0} before start</value>
+  </data>
+  <data name="SchedulerStringId.Msg_Conflict">
+    <value>An edited appointment conflicts with one or several other appointments.</value>
+  </data>
+  <data name="SchedulerStringId.Msg_InvalidAppointmentDuration">
+    <value>Invalid value specified for the interval duration. Please enter a positive value.</value>
+  </data>
+  <data name="SchedulerStringId.Msg_InvalidReminderTimeBeforeStart">
+    <value>Invalid value specified for the before event reminder's time. Please enter a positive value.</value>
+  </data>
+  <data name="SchedulerStringId.TextDuration_FromTo">
+    <value>from {0} to {1}</value>
+  </data>
+  <data name="SchedulerStringId.TextDuration_FromForDays">
+    <value>from {0} for {1} </value>
+  </data>
+  <data name="SchedulerStringId.TextDuration_FromForDaysHours">
+    <value>from {0} for {1} {2}</value>
+  </data>
+  <data name="SchedulerStringId.TextDuration_FromForDaysMinutes">
+    <value>from {0} for {1} {3}</value>
+  </data>
+  <data name="SchedulerStringId.TextDuration_FromForDaysHoursMinutes">
+    <value>from {0} for {1} {2} {3}</value>
+  </data>
+  <data name="SchedulerStringId.TextDuration_ForPattern">
+    <value>{0} {1}</value>
+  </data>
+  <data name="SchedulerStringId.TextDailyPatternString_EveryDay">
+    <value>every {1} {0}</value>
+  </data>
+  <data name="SchedulerStringId.TextDailyPatternString_EveryDays">
+    <value>every {2} {1} {0}</value>
+  </data>
+  <data name="SchedulerStringId.TextDailyPatternString_EveryWeekDay">
+    <value>every weekday {0}</value>
+  </data>
+  <data name="SchedulerStringId.TextDailyPatternString_EveryWeekend">
+    <value>every weekend {0}</value>
+  </data>
+  <data name="SchedulerStringId.TextWeekly_0Day">
+    <value>unspecified day of week</value>
+  </data>
+  <data name="SchedulerStringId.TextWeekly_1Day">
+    <value>{0}</value>
+  </data>
+  <data name="SchedulerStringId.TextWeekly_2Day">
+    <value>{0} and {1}</value>
+  </data>
+  <data name="SchedulerStringId.TextWeekly_3Day">
+    <value>{0}, {1}, and {2}</value>
+  </data>
+  <data name="SchedulerStringId.TextWeekly_4Day">
+    <value>{0}, {1}, {2}, and {3}</value>
+  </data>
+  <data name="SchedulerStringId.TextWeekly_5Day">
+    <value>{0}, {1}, {2}, {3}, and {4}</value>
+  </data>
+  <data name="SchedulerStringId.TextWeekly_6Day">
+    <value>{0}, {1}, {2}, {3}, {4}, and {5}</value>
+  </data>
+  <data name="SchedulerStringId.TextWeekly_7Day">
+    <value>{0}, {1}, {2}, {3}, {4}, {5}, and {6}</value>
+  </data>
+  <data name="SchedulerStringId.TextWeeklyPatternString_EveryWeek">
+    <value>every {3} {0}</value>
+  </data>
+  <data name="SchedulerStringId.TextWeeklyPatternString_EveryWeeks">
+    <value>every {1} {2} on {3} {0}</value>
+  </data>
+  <data name="SchedulerStringId.TextMonthlyPatternString_SubPattern">
+    <value>of every {0} {1} {2}</value>
+  </data>
+  <data name="SchedulerStringId.TextMonthlyPatternString1">
+    <value>day {3} {0}</value>
+  </data>
+  <data name="SchedulerStringId.TextMonthlyPatternString2">
+    <value>the {1} {2} {0}</value>
+  </data>
+  <data name="SchedulerStringId.TextYearlyPattern_YearString1">
+    <value>every {3} {4} {0}</value>
+  </data>
+  <data name="SchedulerStringId.TextYearlyPattern_YearString2">
+    <value>the {5} {6} of {3} {0}</value>
+  </data>
+  <data name="SchedulerStringId.TextYearlyPattern_YearsString1">
+    <value>{3} {4} of every {1} {2} {0}</value>
+  </data>
+  <data name="SchedulerStringId.TextYearlyPattern_YearsString2">
+    <value>the {5} {6} of {3} every {1} {2} {0}</value>
+  </data>
+  <data name="SchedulerStringId.Caption_AllDay">
+    <value>All day</value>
+  </data>
+  <data name="SchedulerStringId.Caption_PleaseSeeAbove">
+    <value>Please see above</value>
+  </data>
+  <data name="SchedulerStringId.Caption_RecurrenceSubject">
+    <value>Subject:</value>
+  </data>
+  <data name="SchedulerStringId.Caption_RecurrenceLocation">
+    <value>Location:</value>
+  </data>
+  <data name="SchedulerStringId.Caption_RecurrenceStartTime">
+    <value>Start:</value>
+  </data>
+  <data name="SchedulerStringId.Caption_RecurrenceEndTime">
+    <value>End:</value>
+  </data>
+  <data name="SchedulerStringId.Caption_RecurrenceShowTimeAs">
+    <value>Show Time As:</value>
+  </data>
+  <data name="SchedulerStringId.Caption_Recurrence">
+    <value>Recurrence:</value>
+  </data>
+  <data name="SchedulerStringId.Caption_RecurrencePattern">
+    <value>Recurrence Pattern:</value>
+  </data>
+  <data name="SchedulerStringId.Caption_NoneRecurrence">
+    <value>(none)</value>
+  </data>
+  <data name="SchedulerStringId.MemoPrintDateFormat">
+    <value>{0} {1} {2}</value>
+  </data>
+  <data name="SchedulerStringId.Caption_EmptyResource">
+    <value>(Any)</value>
+  </data>
+  <data name="SchedulerStringId.Caption_DailyPrintStyle">
+    <value>Daily Style</value>
+  </data>
+  <data name="SchedulerStringId.Caption_WeeklyPrintStyle">
+    <value>Weekly Style</value>
+  </data>
+  <data name="SchedulerStringId.Caption_MonthlyPrintStyle">
+    <value>Monthly Style</value>
+  </data>
+  <data name="SchedulerStringId.Caption_TrifoldPrintStyle">
+    <value>Tri-fold Style</value>
+  </data>
+  <data name="SchedulerStringId.Caption_CalendarDetailsPrintStyle">
+    <value>Calendar Details Style</value>
+  </data>
+  <data name="SchedulerStringId.Caption_MemoPrintStyle">
+    <value>Memo Style</value>
+  </data>
+  <data name="SchedulerStringId.Caption_ColorConverterFullColor">
+    <value>Full Color</value>
+  </data>
+  <data name="SchedulerStringId.Caption_ColorConverterGrayScale">
+    <value>Gray Scale</value>
+  </data>
+  <data name="SchedulerStringId.Caption_ColorConverterBlackAndWhite">
+    <value>Black And White</value>
+  </data>
+  <data name="SchedulerStringId.Caption_ResourceNone">
+    <value>(None)</value>
+  </data>
+  <data name="SchedulerStringId.Caption_ResourceAll">
+    <value>(All)</value>
+  </data>
+  <data name="SchedulerStringId.PrintPageSetupFormatTabControlCustomizeShading">
+    <value>&lt;Customize...&gt;</value>
+  </data>
+  <data name="SchedulerStringId.PrintPageSetupFormatTabControlSizeAndFontName">
+    <value>{0} pt. {1}</value>
+  </data>
+  <data name="SchedulerStringId.PrintRangeControlInvalidDate">
+    <value>End date must be greater or equals to start date</value>
+  </data>
+  <data name="SchedulerStringId.PrintCalendarDetailsControlDayPeriod">
+    <value>Day</value>
+  </data>
+  <data name="SchedulerStringId.PrintCalendarDetailsControlWeekPeriod">
+    <value>Week</value>
+  </data>
+  <data name="SchedulerStringId.PrintCalendarDetailsControlMonthPeriod">
+    <value>Month</value>
+  </data>
+  <data name="SchedulerStringId.PrintMonthlyOptControlOnePagePerMonth">
+    <value>1 page/month</value>
+  </data>
+  <data name="SchedulerStringId.PrintMonthlyOptControlTwoPagesPerMonth">
+    <value>2 pages/month</value>
+  </data>
+  <data name="SchedulerStringId.PrintTimeIntervalControlInvalidDuration">
+    <value>Duration must be not greater than day and greater than 0</value>
+  </data>
+  <data name="SchedulerStringId.PrintTimeIntervalControlInvalidStartEndTime">
+    <value>End time must be greater than start time</value>
+  </data>
+  <data name="SchedulerStringId.PrintTriFoldOptControlDailyCalendar">
+    <value>Daily Calendar</value>
+  </data>
+  <data name="SchedulerStringId.PrintTriFoldOptControlWeeklyCalendar">
+    <value>Weekly Calendar</value>
+  </data>
+  <data name="SchedulerStringId.PrintTriFoldOptControlMonthlyCalendar">
+    <value>Monthly Calendar</value>
+  </data>
+  <data name="SchedulerStringId.PrintWeeklyOptControlOneWeekPerPage">
+    <value>1 page/week</value>
+  </data>
+  <data name="SchedulerStringId.PrintWeeklyOptControlTwoWeekPerPage">
+    <value>2 pages/week</value>
+  </data>
+  <data name="SchedulerStringId.PrintPageSetupFormCaption">
+    <value>Print Options: {0}</value>
+  </data>
+  <data name="SchedulerStringId.PrintMoreItemsMsg">
+    <value>More items...</value>
+  </data>
+  <data name="SchedulerStringId.PrintNoPrintersInstalled">
+    <value>No printers installed</value>
+  </data>
+  <data name="SchedulerStringId.Caption_FirstVisibleResources">
+    <value>First</value>
+  </data>
+  <data name="SchedulerStringId.Caption_PrevVisibleResourcesPage">
+    <value>Previous Page</value>
+  </data>
+  <data name="SchedulerStringId.Caption_PrevVisibleResources">
+    <value>Previous</value>
+  </data>
+  <data name="SchedulerStringId.Caption_NextVisibleResources">
+    <value>Next</value>
+  </data>
+  <data name="SchedulerStringId.Caption_NextVisibleResourcesPage">
+    <value>Next Page</value>
+  </data>
+  <data name="SchedulerStringId.Caption_LastVisibleResources">
+    <value>Last</value>
+  </data>
+  <data name="SchedulerStringId.Caption_IncreaseVisibleResourcesCount">
+    <value>Increase visible resources count</value>
+  </data>
+  <data name="SchedulerStringId.Caption_DecreaseVisibleResourcesCount">
+    <value>Decrease visible resources count</value>
+  </data>
+  <data name="SchedulerStringId.Caption_ShadingApplyToAllDayArea">
+    <value>All Day Area</value>
+  </data>
+  <data name="SchedulerStringId.Caption_ShadingApplyToAppointments">
+    <value>Appointments</value>
+  </data>
+  <data name="SchedulerStringId.Caption_ShadingApplyToAppointmentStatuses">
+    <value>Appointment statuses</value>
+  </data>
+  <data name="SchedulerStringId.Caption_ShadingApplyToHeaders">
+    <value>Headers</value>
+  </data>
+  <data name="SchedulerStringId.Caption_ShadingApplyToTimeRulers">
+    <value>Time Rulers</value>
+  </data>
+  <data name="SchedulerStringId.Caption_ShadingApplyToCells">
+    <value>Cells</value>
+  </data>
+  <data name="SchedulerStringId.Msg_InvalidSize">
+    <value>Invalid value specified for the size.</value>
+  </data>
+  <data name="SchedulerStringId.Msg_ApplyToAllStyles">
+    <value>Apply current printer settings to all styles?</value>
+  </data>
+  <data name="SchedulerStringId.Msg_MemoPrintNoSelectedItems">
+    <value>Cannot print unless an item is selected. Select an item, and then try to print again.</value>
+  </data>
+  <data name="SchedulerStringId.Caption_AllResources">
+    <value>All resources</value>
+  </data>
+  <data name="SchedulerStringId.Caption_VisibleResources">
+    <value>Visible resources</value>
+  </data>
+  <data name="SchedulerStringId.Caption_OnScreenResources">
+    <value>OnScreen resources</value>
+  </data>
+  <data name="SchedulerStringId.Caption_GroupByNone">
+    <value>None</value>
+  </data>
+  <data name="SchedulerStringId.Caption_GroupByDate">
+    <value>Date</value>
+  </data>
+  <data name="SchedulerStringId.Caption_GroupByResources">
+    <value>Resources</value>
+  </data>
+  <data name="SchedulerStringId.Msg_InvalidInputFile">
+    <value>Input file is invalid</value>
+  </data>
+  <data name="SchedulerStringId.TextRecurrenceTypeDaily">
+    <value>Daily</value>
+  </data>
+  <data name="SchedulerStringId.TextRecurrenceTypeWeekly">
+    <value>Weekly</value>
+  </data>
+  <data name="SchedulerStringId.TextRecurrenceTypeMonthly">
+    <value>Monthly</value>
+  </data>
+  <data name="SchedulerStringId.TextRecurrenceTypeYearly">
+    <value>Yearly</value>
+  </data>
+  <data name="SchedulerStringId.TextRecurrenceTypeMinutely">
+    <value>Minutely</value>
+  </data>
+  <data name="SchedulerStringId.TextRecurrenceTypeHourly">
+    <value>Hourly</value>
+  </data>
+  <data name="SchedulerStringId.Msg_Warning">
+    <value>Warning!</value>
+  </data>
+  <data name="SchedulerStringId.Msg_CantFitIntoPage">
+    <value>It's impossible to fit the printing output into a single page using the current printing settings. Please try to increase the page height or decrease the PrintTime interval.</value>
+  </data>
+  <data name="SchedulerStringId.Msg_PrintStyleNameExists">
+    <value>The style name '{0}' already exists. Type another name.</value>
+  </data>
+  <data name="SchedulerStringId.Msg_OutlookCalendarNotFound">
+    <value>The '{0}' calendar is not found.</value>
+  </data>
+  <data name="SchedulerStringId.Caption_PrevAppointment">
+    <value>Previous Appointment</value>
+  </data>
+  <data name="SchedulerStringId.Caption_NextAppointment">
+    <value>Next Appointment</value>
+  </data>
+</root>
