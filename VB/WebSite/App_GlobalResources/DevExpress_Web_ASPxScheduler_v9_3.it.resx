@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ASPxSchedulerStringId.Caption_RecurrenceType_Daily" xml:space="preserve">
+    <value>Giornaliero</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Caption_RecurrenceType_Weekly" xml:space="preserve">
+    <value>Settimanale</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Caption_RecurrenceType_Monthly" xml:space="preserve">
+    <value>Mensile</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Caption_RecurrenceType_Yearly" xml:space="preserve">
+    <value>Annuale</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Caption_RecurenceRange_NoEndDate" xml:space="preserve">
+    <value>Nessun termine</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Caption_RecurenceRange_OccurrenceCount" xml:space="preserve">
+    <value>Fine dopo:</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Caption_RecurenceRange_EndBy" xml:space="preserve">
+    <value>Fine entro:</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Caption_Days" xml:space="preserve">
+    <value>giorno(i)</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Caption_Every" xml:space="preserve">
+    <value>Ogni</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Caption_EveryWeekday" xml:space="preserve">
+    <value>Ogni fine settimana</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Caption_RecurEvery" xml:space="preserve">
+    <value>Ricorre ogni</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Caption_WeeksOn" xml:space="preserve">
+    <value>week(s) on:</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Caption_Day" xml:space="preserve">
+    <value>Giorno</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Caption_The" xml:space="preserve">
+    <value>The</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Caption_OfEvery" xml:space="preserve">
+    <value>di ogni</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Caption_Months" xml:space="preserve">
+    <value>mese(i)</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Caption_Of" xml:space="preserve">
+    <value>di</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Caption_Occurrences" xml:space="preserve">
+    <value>ricorrenza</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Caption_Recurrence" xml:space="preserve">
+    <value>Ricorrenza</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Caption_GotoDate" xml:space="preserve">
+    <value>Vai alla data</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Caption_DeleteRecurrentApt" xml:space="preserve">
+    <value>Conferma eliminazione</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Caption_OpenRecurrentApt" xml:space="preserve">
+    <value>Apri ricorrenza</value>
+  </data>
+  <data name="ASPxSchedulerStringId.TooltipViewNavigator_Backward" xml:space="preserve">
+    <value>Indietro</value>
+  </data>
+  <data name="ASPxSchedulerStringId.TooltipViewNavigator_Forward" xml:space="preserve">
+    <value>Avanti</value>
+  </data>
+  <data name="ASPxSchedulerStringId.CaptionViewNavigator_Today" xml:space="preserve">
+    <value>Oggi</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Caption_ViewVisibleInterval_Format" xml:space="preserve">
+    <value>{0:D} &amp;ndash; {1:D}</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Caption_OperationToolTip" xml:space="preserve">
+    <value>Premi ESC per cancellare l'operazione</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Caption_Error" xml:space="preserve">
+    <value>Errore</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Caption_Warning" xml:space="preserve">
+    <value>Attenzione</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Caption_Info" xml:space="preserve">
+    <value>Informazioni</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Caption_DetailInfo" xml:space="preserve">
+    <value>Visualizza dettagli</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Caption_ShowMore" xml:space="preserve">
+    <value>Show more</value>
+  </data>
+</root>
