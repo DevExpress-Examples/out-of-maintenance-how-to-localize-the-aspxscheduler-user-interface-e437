@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="ASPxperienceStringId.Loading" xml:space="preserve">
+    <value>Caricamento&amp;hellip;</value>
+  </data>
+	<data name="ASPxperienceStringId.Pager_All" xml:space="preserve">
+    <value>Tutti</value>
+  </data>
+	<data name="ASPxperienceStringId.Pager_First" xml:space="preserve">
+    <value>Primo</value>
+  </data>
+	<data name="ASPxperienceStringId.Pager_Prev" xml:space="preserve">
+    <value>Precedente</value>
+  </data>
+	<data name="ASPxperienceStringId.Pager_Next" xml:space="preserve">
+    <value>Successivo</value>
+  </data>
+	<data name="ASPxperienceStringId.Pager_Last" xml:space="preserve">
+    <value>Ultimo</value>
+  </data>
+	<data name="ASPxperienceStringId.Pager_SummaryFormat" xml:space="preserve">
+    <value>Pagina {0} di {1} ({2} oggetti)</value>
+  </data>
+	<data name="ASPxperienceStringId.Pager_SummaryAllPagesFormat" xml:space="preserve">
+    <value>Pagine: {0} - {1} ({2} oggetti)</value>
+  </data>
+	<data name="ASPxperienceStringId.DataView_PagerSummaryFormat" xml:space="preserve">
+    <value>Pagina {0} di {1}</value>
+  </data>
+	<data name="ASPxperienceStringId.DataView_PagerSummaryAllPages" xml:space="preserve">
+    <value>Tutte le pagine</value>
+  </data>
+	<data name="ASPxperienceStringId.DataViewBase_EmptyDataText" xml:space="preserve">
+    <value>Non ci sono dati da visualizzare</value>
+  </data>
+	<data name="ASPxperienceStringId.NewsControl_BackToTop" xml:space="preserve">
+    <value>Torna in cima</value>
+  </data>
+	<data name="ASPxperienceStringId.NewsControl_Page" xml:space="preserve">
+    <value>Pagina:</value>
+  </data>
+	<data name="ASPxperienceStringId.PopupControl_CloseButton" xml:space="preserve">
+    <value>[Chiudi]</value>
+  </data>
+	<data name="ASPxperienceStringId.PopupControl_SizeGrip" xml:space="preserve">
+    <value>[Ridimensiona]</value>
+  </data>
+	<data name="ASPxperienceStringId.TitleIndex_FilterCaption" xml:space="preserve">
+    <value>Filtro:&amp;nbsp;&amp;nbsp;&amp;nbsp;</value>
+  </data>
+	<data name="ASPxperienceStringId.TitleIndex_FilterHint" xml:space="preserve">
+    <value>&lt;b&gt;?&lt;/b&gt; = ogni singolo carattere
+&lt;b&gt;*&lt;/b&gt; = ogni carattere</value>
+  </data>
+	<data name="ASPxperienceStringId.TitleIndex_BackToTop" xml:space="preserve">
+    <value>[Torna all'inizio]</value>
+  </data>
+	<data name="ASPxperienceStringId.TitleIndex_NoData" xml:space="preserve">
+    <value>Non ci sono dati con i criteri specificati</value>
+  </data>
+	<data name="ASPxperienceStringId.UploadControl_RemoveButton" xml:space="preserve">
+    <value>Rimuovi</value>
+  </data>
+	<data name="ASPxperienceStringId.UploadControl_UploadButton" xml:space="preserve">
+    <value>Carica</value>
+  </data>
+	<data name="ASPxperienceStringId.UploadControl_CancelButton" xml:space="preserve">
+    <value>Cancella</value>
+  </data>
+	<data name="ASPxperienceStringId.UploadControl_InvalidWindowsPath" xml:space="preserve">
+    <value>Il percorso "{0}" non è un percorso Windows valido.</value>
+  </data>
+	<data name="ASPxperienceStringId.UploadControl_MaxRequestLengthExceeded" xml:space="preserve">
+		<value>La lunghezza totale del contenuto dei file selezionati per il caricamento eccede la dimensione massima consentita ({0} KB) consentita dall'applicazione.</value>
+	</data>
+	<data name="ASPxperienceStringId.UploadControl_AddButton" xml:space="preserve">
+		<value>Aggiungi</value>
+	</data>
+	<data name="ASPxperienceStringId.UploadControl_MaxSize" xml:space="preserve">
+		<value>La dimensione del file è superiore al massimo consentito di {0} byte</value>
+	</data>
+	<data name="ASPxperienceStringId.UploadControl_GeneralError" xml:space="preserve">
+		<value>Il caricamento del file è fallito; si è verificato un errore esterno alle funzionalità del controllo ASPxUploadControl</value>
+	</data>
+	<data name="ASPxperienceStringId.UploadControl_EnctypeError" xml:space="preserve">
+		<value>Il caricamento del file non è riuscito perché l'attributo 'enctype' del form non è impostato a 'multipart/form-data'</value>
+	</data>
+	<data name="ASPxperienceStringId.UploadControl_NotAllowedContentTypes" xml:space="preserve">
+		<value>Il tipo di file non è consentito</value>
+	</data>
+	<data name="ASPxperienceStringId.UploadControl_NotAllowedFileExtension" xml:space="preserve">
+		<value>L'estensione specificata non è consentita</value>
+	</data>
+	<data name="ASPxperienceStringId.UploadControl_FileDoesNotExistError" xml:space="preserve">
+		<value>Il file caricato non esiste</value>
+	</data>
+</root>
