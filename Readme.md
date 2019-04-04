@@ -2,7 +2,7 @@
 *Files to look at*:
 
 * [AppointmentForm_v10_1.it.ascx](./CS/WebSite/CustomForms/AppointmentForm_v10_1.it.ascx) (VB: [AppointmentForm_v10_1.it.ascx](./VB/WebSite/CustomForms/AppointmentForm_v10_1.it.ascx))
-* [Default.aspx](./CS/WebSite/Default.aspx) (VB: [Default.aspx.vb](./VB/WebSite/Default.aspx.vb))
+* [Default.aspx](./CS/WebSite/Default.aspx) (VB: [Default.aspx](./VB/WebSite/Default.aspx))
 * [Default.aspx.cs](./CS/WebSite/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/WebSite/Default.aspx.vb))
 <!-- default file list end -->
 # How to localize the ASPxScheduler user interface
